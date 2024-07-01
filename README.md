@@ -27,3 +27,12 @@ If the player doesnt have enough resources to make the payment, the turn skips t
 5.**Trade**: You can trade with other players to change the resource, you can only change 1 resource you have for 1 other resource he have.
 
 ## Explanation for each file and their methods:
+# Board:
+The board as vector of shared_ptr of Tile, which represent the 19 tiles of the board. When we call the board
+at the begging of the game, we call the initializeBoard method which create the whole board and calls also the to linkTiles methos which connect all the edges and vertcies who have sharing points.
+
+- resourceToString : gets the resource type and change it to string.
+- createEdge/createVertex : when the board is initialize, those functions creating the pointers to the edges and also give them unique id.
+- getEdge/getVertex : returns the id of the wanted Edge/Vertex.
+- getTile: returns the pointer to the tile.
+- getTiles: returns the whole tiles of the board
