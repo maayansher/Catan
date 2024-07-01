@@ -19,11 +19,15 @@ The board is hard-coded and represent by that:
 ## Rules
 
 1.**Setup** :The game starts from player1 and go on to player 2 then 3. Each player places 2 initial settlements and 2 initial roads, after they place the 2 initial settlements they get the resources they stand on.
+
 2.**Resource Distribution**: When a player rolls the dice, resources are distributed based on the dice roll. The number the player rolled on the dice determine which tile is activate (which means the
 player who owns settlement/city on the tile gets the resources).
+
 3.**Turn**: When a player rolled the dice now its his turn, he can choose to build a settlement, a road, upgrading a settelement to city, purchase development card and to trade with other player.
+
 If the player doesnt have enough resources to make the payment, the turn skips to the next player.
 4.**Development Cards**: When a player purchase a development card, the cards he gets (if he can afford it) are used immediatly.
+
 5.**Trade**: You can trade with other players to change the resource, you can only change 1 resource you have for 1 other resource he have.
 
 ## Explanation for each class and their methods:
