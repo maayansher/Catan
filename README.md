@@ -4,6 +4,7 @@ This project implements a simplified version of the board game Catan. The game a
 ## Board
 The board i created represented by vector of shared_ptr of Tiles. The board built from 19 tiles and each tile have 6 edges and 6 vertcies and a number on it, for the dice roll action. Ive declared that the tiles who have sharing edges and vertices points to the same place in the memory.
 ![catan vertcies pointers](https://github.com/maayansher/Catan/assets/72826364/a9307fc8-5f75-4d2f-adfb-9ed186e31979)
+
 The board is hard-coded and represent by that:
 
                             Ore(6)          Sheep(5)             Ore(9)
@@ -24,3 +25,5 @@ player who owns settlement/city on the tile gets the resources).
 If the player doesnt have enough resources to make the payment, the turn skips to the next player.
 4.**Development Cards**: When a player purchase a development card, the cards he gets (if he can afford it) are used immediatly.
 5.**Trade**: You can trade with other players to change the resource, you can only change 1 resource you have for 1 other resource he have.
+
+## Explanation for each file and their methods:
