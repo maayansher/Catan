@@ -79,3 +79,19 @@ They have their points saved,their knight count and resource cards they have.
 The tile class represent the pieces of the board, each tile have number, resource type and index.
 Also each tile have their own 6 edges and 6 vertices to represent the places the player can build a road or settlements.
 when the board is initialized, each tile get their own index in order to track each tile.
+
+# How to run the project
+Use the provided `makefile` to build and run the project:
+    
+   - To build main:
+        ```bash
+        make catan
+        ```
+  - To build tests:
+      ```bash
+      make test
+      ```
+  - To check for memory leaks using Valgrind:
+      ```bash
+      make valgrind
+      ```
