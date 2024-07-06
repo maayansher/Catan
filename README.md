@@ -19,7 +19,7 @@ The board is hard-coded and represent by that:
 ## Rules
 
 1.**Setup**:
-The game starts from player1 and go on to player 2 then 3. Each player places 2 initial settlements and 2 initial roads, after they place the 2 initial settlements they get the resources they stand on.
+The game starts from player1 and go on to player 2 then  Each player places 2 initial settlements and 2 initial roads, after they place the 2 initial settlements they get the resources they stand on.
 
 2.**Resource Distribution**:
 When a player rolls the dice, resources are distributed based on the dice roll. The number the player rolled on the dice determine which tile is activate (which means the
